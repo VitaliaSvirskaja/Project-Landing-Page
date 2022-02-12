@@ -150,6 +150,7 @@ text-align: center;
     margin: auto;
     gap: 30px;
     background-color: #e9e0de;
+    align-items: center;
 
 }
 
@@ -159,7 +160,6 @@ text-align: center;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    padding: 0px 124px;
 }
 
 .quote-line2 {
@@ -167,7 +167,6 @@ text-align: center;
     width: 100%;
     text-align: right;
     font-weight: bold;
-    padding: 0px 124px;
     font-family: 'Cormorant Garamond', serif;
     font-size: 24px;
 
