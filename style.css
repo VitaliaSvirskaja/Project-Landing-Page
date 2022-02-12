@@ -9,15 +9,10 @@ html {
 
 * {
     margin: 0px;
-
 }
 
 body {
-    /* display: flex;
-    flex-direction: column; */
     margin: 0px;
-    /* align-items: center; */
-
 }
 
 .header-container {
@@ -34,7 +29,6 @@ body {
     width: 100%;
     font-size: 24px;
     margin: auto;
-
 }
 
 .hero-container {
@@ -55,7 +49,6 @@ body {
     max-width: var(--default-content-width);
     width: 100%;
     margin: auto;
-
 }
 
 .hero-text {
@@ -65,7 +58,6 @@ body {
     width: 50%;
     gap: 20px;
     justify-content: center;
-
 }
 
 .hero-text h1 {
@@ -78,13 +70,13 @@ body {
     font-family: 'Cormorant Garamond', serif;
     font-weight: lighter;
     font-weight: bold;
-
 }
 
 img {
     width: 50%;
     object-fit: cover;
     height: 100%;
+    border-radius: 15px;
 }
 
 
@@ -102,22 +94,21 @@ img {
     background-color: whitesmoke;
 }
 
-.information{
-max-width: var(--default-content-width);
-width: 100%;
-margin: auto;
-
+.information {
+    max-width: var(--default-content-width);
+    width: 100%;
+    margin: auto;
 }
+
 .headline-information {
     padding: 15px 0px;
-text-align: center;
+    text-align: center;
 }
 
 .headline-information h2 {
     font-size: 36px;
     font-weight: bold;
 }
-
 
 .kachel-container {
     display: flex;
@@ -129,7 +120,6 @@ text-align: center;
     flex: 1;
     max-height: 100%;
     width: 25%;
-
 }
 
 .kachel p {
@@ -151,7 +141,6 @@ text-align: center;
     gap: 30px;
     background-color: #e9e0de;
     align-items: center;
-
 }
 
 .quote-line1 {
@@ -169,19 +158,17 @@ text-align: center;
     font-weight: bold;
     font-family: 'Cormorant Garamond', serif;
     font-size: 24px;
-
 }
 
 .cta {
     padding: 50px var(--default-padding);
     background-color: whitesmoke;
-
 }
 
 .cta-content {
     display: flex;
     justify-content: space-between;
-    margin:auto;
+    margin: auto;
     padding: 40px 32px;
     gap: 60px;
     max-width: var(--default-content-width);
@@ -216,7 +203,6 @@ text-align: center;
     padding: 30px var(--default-padding);
     background-color: #946b45;
     font-size: 24px;
-
 }
 
 
@@ -239,10 +225,6 @@ a {
     font-weight: bold;
 }
 
-.kachel img {
-    border-radius: 15px;
-}
-
 .btn {
     border: none;
     border: 2px solid;
@@ -253,7 +235,6 @@ a {
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
     align-self: center;
-
 }
 
 .information, .quote {
