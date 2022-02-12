@@ -155,7 +155,7 @@ text-align: center;
 }
 
 .quote-line1 {
-    max-width: var(--default-content-width);
+    max-width: 600px;
     width: 100%;
     font-size: 36px;
     font-style: italic;
@@ -163,7 +163,7 @@ text-align: center;
 }
 
 .quote-line2 {
-    max-width: var(--default-content-width);
+    max-width: 600px;
     width: 100%;
     text-align: right;
     font-weight: bold;
